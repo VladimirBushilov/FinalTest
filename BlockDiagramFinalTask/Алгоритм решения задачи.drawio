@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T16:57:58.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="vvV8xOQ_eOI2YHtT5i_S" version="21.5.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="712" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-0" target="Vr5TUsB_W9Xkq_uJHu6f-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-0" value="&lt;div&gt;string[] array1&lt;/div&gt;&lt;div&gt;string[] array2&lt;/div&gt;&lt;div&gt;int count = 0&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-1" target="Vr5TUsB_W9Xkq_uJHu6f-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-3" target="Vr5TUsB_W9Xkq_uJHu6f-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-3" target="Vr5TUsB_W9Xkq_uJHu6f-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="245" />
+              <mxPoint x="485" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-3" value="for(i = 0; i &amp;lt; array1.length; i++)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="220" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-5" target="Vr5TUsB_W9Xkq_uJHu6f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-5" target="Vr5TUsB_W9Xkq_uJHu6f-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="323" />
+              <mxPoint x="265" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-5" value="if(array1[i].length &amp;lt;= 3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="298" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-11" target="Vr5TUsB_W9Xkq_uJHu6f-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="399" />
+              <mxPoint x="260" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-11" value="&lt;div&gt;array2[count] = array1[i];&lt;/div&gt;&lt;div&gt;count++;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="378" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-13" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="348" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-17" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="298" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vr5TUsB_W9Xkq_uJHu6f-19" target="Vr5TUsB_W9Xkq_uJHu6f-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-19" value="Print (string[] array2)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-21" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr5TUsB_W9Xkq_uJHu6f-23" value="&lt;em&gt;Задача&lt;/em&gt;: Написать программу, которая из имеющегося массива строк&lt;br/&gt; формирует новый массив из строк, длина которых меньше, либо равна 3 &lt;br/&gt;символам. Первоначальный массив можно ввести с клавиатуры, либо задать &lt;br/&gt;на старте выполнения алгоритма. При решении не рекомендуется &lt;br/&gt;пользоваться коллекциями, лучше обойтись исключительно массивами." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="5" width="220" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
